@@ -1,0 +1,29 @@
+{
+  "name": "videotest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "swatch.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev":"nodemon app.js"
+  },
+  "author": "Ogenrwot Aaron",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "get-pixels": "^3.3.2",
+    "gridfs-stream": "^1.1.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.6.11",
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^3.3.0",
+    "shaka-player": "^2.5.4",
+    "shelljs": "^0.8.3",
+    "yargs": "^14.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
